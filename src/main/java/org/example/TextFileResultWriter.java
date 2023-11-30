@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 // Klasa reprezentująca konkretny system zapisu wyników do pliku tekstowego
-class TextFileResultWriter implements ResultWriter {
+public class TextFileResultWriter implements ResultWriter {
     private String filePath;
 
     public TextFileResultWriter(String filePath) {

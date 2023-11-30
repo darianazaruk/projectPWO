@@ -1,7 +1,7 @@
 package org.example;
 
 // Klasa reprezentująca konkretne pytanie do głosowania
-class YesNoQuestion implements VotingQuestion {
+public class YesNoQuestion implements VotingQuestion {
     private String question;
 
     public YesNoQuestion(String question) {

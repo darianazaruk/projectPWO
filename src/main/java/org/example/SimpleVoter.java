@@ -3,11 +3,18 @@ package org.example;
 import java.util.Scanner;
 
 // Klasa reprezentująca konkretnego użytkownika
-class SimpleVoter implements Voter {
+public class SimpleVoter implements Voter {
     private String fullName;
+    private Scanner scanner;
 
-    public SimpleVoter(String fullName) {
+//    public SimpleVoter(String fullName) {
+//        this.fullName = fullName;
+//        this.scanner = new Scanner(System.in);
+//    }
+
+    public SimpleVoter(String fullName,Scanner scanner) {
         this.fullName = fullName;
+        this.scanner = scanner;
     }
 
     @Override
@@ -17,7 +24,7 @@ class SimpleVoter implements Voter {
 
     @Override
     public boolean vote(VotingQuestion question) {
-        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(System.in);
         question.askQuestion();
 
         String answer = scanner.nextLine();
@@ -27,5 +34,6 @@ class SimpleVoter implements Voter {
         }
 
         return answer.equalsIgnoreCase("tak");
+
     }
 }

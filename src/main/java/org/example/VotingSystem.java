@@ -22,7 +22,7 @@ public class VotingSystem {
         String fullName = scanner.nextLine();
 
         // Tworzenie użytkownika
-        Voter voter = new SimpleVoter(fullName);
+        Voter voter = new SimpleVoter(fullName,scanner);
 
         // Głosowanie na każde pytanie
         StringBuilder result = new StringBuilder(voter.getFullName()).append(": ");
@@ -30,7 +30,6 @@ public class VotingSystem {
             boolean vote = voter.vote(question);
             result.append(question.getQuestionText()).append("-").append(vote ? "tak" : "nie").append(", ");
         }
-
         // Zapis wyników do pliku
         resultWriter.writeResult(result.toString());
 

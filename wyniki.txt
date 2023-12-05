@@ -1,4 +1,6 @@
-Maria Nowak: Czy jesteś za legalizacją marihuany?-nie, Czy uważasz, że edukacja powinna być bezpłatna?-nie,
-
-Jan Kowalski: Czy jesteś za legalizacją marihuany?-tak, Czy uważasz, że edukacja powinna być bezpłatna?-nie, 
-Daria Nazaruk: Czy jesteś za legalizacją marihuany?-nie, Czy uważasz, że edukacja powinna być bezpłatna?-tak, 
+John Doe: Czy uważasz studia magisterskie za obowiązkowe?-tak, Czy uważasz, że edukacja powinna być bezpłatna?-nie, 
+ Daria Nazaruk: Czy uważasz studia magisterskie za obowiązkowe?-nie, Czy uważasz, że edukacja powinna być bezpłatna?-tak, 
+Dariia Onishko: Czy uważasz studia magisterskie za obowiązkowe?-tak, Czy uważasz, że edukacja powinna być bezpłatna?-nie, 
+John Doe: Czy uważasz studia magisterskie za obowiązkowe?-tak, Czy uważasz, że edukacja powinna być bezpłatna?-nie, 
+Jan Kowalski: Czy uważasz studia magisterskie za obowiązkowe?-tak, Czy uważasz, że edukacja powinna być bezpłatna?-nie, 
+Jan Kowalski: Czy uważasz studia magisterskie za obowiązkowe?-tak, Czy uważasz, że edukacja powinna być bezpłatna?-nie, 
